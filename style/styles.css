@@ -19,6 +19,7 @@ body {
     align-items: center;
     min-height: 100vh;
     min-width: 100vh;
+    background-image: linear-gradient(#a9e1f4, #ffffff);
 }
 
 .container{
@@ -85,6 +86,11 @@ body {
     border-radius: 5px;
     border: 2px solid black;
     cursor: pointer;
+    background-color: #01da01;
+}
+
+.btn-submit:active {
+    background-color: #008400;
 }
 
 .btn-clear{
@@ -94,6 +100,11 @@ body {
     border-radius: 5px;
     border: 2px solid black;
     cursor: pointer;
+    background-color: #ff0000;
+}
+
+.btn-clear:active {
+    background-color: #900000;
 }
 
 .list-container{
@@ -105,6 +116,7 @@ body {
     align-items: center;
     justify-content: end;
     margin-bottom: 20px;
+    overflow: auto;
 }
 
 .itens-list-container{
@@ -123,7 +135,8 @@ body {
     justify-content: space-between;
     width: 100vh;
     height: 2vh;
-    margin-bottom: 4px;
+    margin-left: 30px;
+    margin: 4px;
 }
 
 .btn-delete{
@@ -132,10 +145,16 @@ body {
     border-radius: 5px;
     border: 2px solid black;
     cursor: pointer;
+    margin-right: 12px;
+    background-color: #ff0000;
 }
 
-.btn-delete{
+.btn-delete:active {
+    background-color: #900000;
+}
 
+.btn-container{
+    margin-left: 8px;
 }
 
 .hide{
@@ -146,4 +165,8 @@ body {
 .show{
     display: block;
     visibility: visible;    
+}
+
+.value-item{
+    margin-left: 4px;
 }
